@@ -8,6 +8,7 @@ import requests
 #get the last time as a datetime object
 
 
+
 def getLastTime(df):
     row = df.tail(1)
     timestamp = row["Unix Timestamp"].iloc[0]
